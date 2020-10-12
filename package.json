@@ -1,6 +1,20 @@
 {
   "name": "sketch-lazy-sorter",
-  "description": "Sort Layers",
+  "description": "Sort Layers alphabetically in the Layers panel.",
+  "homepage": "https://github.com/lazybearcreations/sketch-lazy-sorter",
+  "bugs": {
+    "url": "https://github.com/lazybearcreations/sketch-lazy-sorter/issues"
+  },
+  "keywords": [
+    "sketch",
+    "sketchapp",
+    "plugin",
+    "layers",
+    "layer sort",
+    "layer sorter",
+    "lazybear creations"
+  ],
+  "license": "MIT",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=49.0"
@@ -23,5 +37,9 @@
   "devDependencies": {
     "@skpm/builder": "^0.7.0"
   },
-  "author": "Adam Bruzon <adam@lbc.email>"
+  "author": "Adam Bruzon <adam@lbc.email>",
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:lazybearcreations/sketch-lazy-sorter.git"
+  },
 }
