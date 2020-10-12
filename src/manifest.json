@@ -1,0 +1,24 @@
+{
+  "author": "Adam Bruzon",
+  "identifier": "lazybearcreations.lazysorter",
+  "icon": "lazy-sorter.png",
+  "commands": [
+    {
+      "name": "Sort Page Layers (ASC)",
+      "identifier": "lazybearcreations.lazysorter.sort-layers-asc",
+      "script": "./sortLayersASC.js"
+    },
+    {
+      "name": "Sort Page Layers (DESC)",
+      "identifier": "lazybearcreations.lazysorter.sort-layers-desc",
+      "script": "./sortLayersDESC.js"
+    }
+  ],
+  "menu": {
+    "title": "Lazy Sorter",
+    "items": [
+      "lazybearcreations.lazysorter.sort-layers-asc",
+      "lazybearcreations.lazysorter.sort-layers-desc"
+    ]
+  }
+}
